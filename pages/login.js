@@ -8,8 +8,6 @@ import {
   Message
 } from 'semantic-ui-react'
 
-import Layout from '../components/Layout'
-
 import { login } from '../lib/moltin'
 
 export default class Login extends React.Component {
@@ -47,11 +45,13 @@ export default class Login extends React.Component {
   _handleChange = ({ target: { name, value } }) =>
     this.setState({ [name]: value })
 
+  static title = "Login"
+
   render() {
     const { loading, errors } = this.state
 
     return (
-      <Layout title="Login">
+      <>
         <Header as="h1">Log in to your account</Header>
 
         <Form onSubmit={this._handleSubmit} loading={loading} error={!!errors}>
@@ -87,7 +87,7 @@ export default class Login extends React.Component {
             </Button>
           </Segment>
         </Form>
-      </Layout>
+      </>
     )
   }
 }

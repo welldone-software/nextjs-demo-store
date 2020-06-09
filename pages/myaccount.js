@@ -1,6 +1,5 @@
 import Router from 'next/router'
 
-import Layout from '../components/Layout'
 import OrderItemList from '../components/OrderItemList'
 
 import { getOrders } from '../lib/moltin'
@@ -41,11 +40,11 @@ export default class MyAccount extends React.Component {
     console.log(included)
   }
 
+  static title = "My account"
+
   render() {
     return (
-      <Layout title="My account">
-        <OrderItemList {...this.state} />
-      </Layout>
+      <OrderItemList {...this.state} />
     )
   }
 }

@@ -1,15 +1,21 @@
-import Layout from '../components/Layout'
+import Head from 'next/head'
+
 import ProductSummary from '../components/ProductSummary'
 import ProductAttributes from '../components/ProductAttributes'
 
 import { getProductById } from '../lib/moltin'
 
 const ProductPage = ({ product }) => (
-  <Layout title={product.name}>
+  <>
+    <Head>
+      <title>{product.name}</title>
+    </Head>
     <ProductSummary {...product} />
     <ProductAttributes {...product} />
-  </Layout>
+  </>
 )
+
+ProductPage.title = "My account"
 
 ProductPage.getInitialProps = async ({ query: { id } }) => {
   const {

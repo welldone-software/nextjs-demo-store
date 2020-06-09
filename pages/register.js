@@ -1,9 +1,8 @@
 import Router from 'next/router'
 import { Header, Form, Input, Button, Segment } from 'semantic-ui-react'
 
-import Layout from '../components/Layout'
-
 import { register } from '../lib/moltin'
+import Head from 'next/head'
 
 export default class Register extends React.Component {
   state = {
@@ -37,11 +36,13 @@ export default class Register extends React.Component {
   _handleChange = ({ target: { name, value } }) =>
     this.setState({ [name]: value })
 
+  static title = "Register"
+
   render() {
     const { loading } = this.state
 
     return (
-      <Layout title="Register">
+      <>
         <Header as="h1">Create an account</Header>
 
         <Form onSubmit={this._handleSubmit} loading={loading}>
@@ -81,7 +82,7 @@ export default class Register extends React.Component {
             </Button>
           </Segment>
         </Form>
-      </Layout>
+      </>
     )
   }
 }

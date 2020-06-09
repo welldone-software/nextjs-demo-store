@@ -1,4 +1,3 @@
-import Layout from '../components/Layout'
 import CartItemList from '../components/CartItemList'
 import CartSummary from '../components/CartSummary'
 
@@ -81,17 +80,19 @@ export default class Cart extends React.Component {
     })
   }
 
+  static title = "Cart"
+
   render() {
     const { meta, ...rest } = this.state
     const { loading } = rest
 
     return (
-      <Layout title="Cart">
+      <>
         <CartItemList {...rest} removeFromCart={this._handleRemoveFromCart} />
         {!loading && !rest.completed && (
           <CartSummary {...meta} handleCheckout={this._handleCheckout} />
         )}
-      </Layout>
+      </>
     )
   }
 }

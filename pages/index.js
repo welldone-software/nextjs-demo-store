@@ -4,10 +4,10 @@ import ProductList from '../components/ProductList'
 import { getProducts } from '../lib/moltin'
 
 const Home = ({ products }) => (
-  <Layout title="Home">
-    <ProductList products={products} />
-  </Layout>
+  <ProductList products={products} />
 )
+
+Home.title = "Home"
 
 Home.getInitialProps = async () => {
   const { data, included } = await getProducts()
