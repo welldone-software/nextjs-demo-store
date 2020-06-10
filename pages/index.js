@@ -1,4 +1,3 @@
-import Layout from '../components/Layout'
 import ProductList from '../components/ProductList'
 
 import { getProducts } from '../lib/moltin'

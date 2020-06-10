@@ -17,7 +17,7 @@ const ProductPage = ({ product }) => (
 
 ProductPage.title = "My account"
 
-ProductPage.getInitialProps = async ({ query: { id } }) => {
+ProductPage.getInitialProps = async ({ctx: { query: { id } }}) => {
   const {
     data,
     included: { main_images }
