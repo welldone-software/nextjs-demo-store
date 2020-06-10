@@ -16,5 +16,11 @@ const mapProductsToItems = products =>
   })
 
 export default ({ products }) => (
-  <Card.Group items={mapProductsToItems(products)} itemsPerRow="3" stackable />
+  <Card.Group itemsPerRow="3" stackable>
+    {mapProductsToItems(products).map(({href, childKey, ...otherProps}) => (
+      <Link href={href} key={childKey}>
+        <Card {...otherProps}/>
+      </Link>
+    ))}
+  </Card.Group>
 )
