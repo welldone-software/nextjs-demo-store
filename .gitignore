@@ -9,3 +9,6 @@ localStorage
 .env
 .DS_Store
 *.log
+
+# webstorm IDE
+.idea
