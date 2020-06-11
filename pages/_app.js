@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import App from 'next/app';
 import { Container } from 'semantic-ui-react'
-import Header from '../components/Header'
+import Header from '../src/app/Header'
 
 class MyApp extends App {
 

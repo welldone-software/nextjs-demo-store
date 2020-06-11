@@ -1,6 +1,6 @@
-import ProductList from '../components/ProductList'
+import ProductList from '../src/home/ProductList'
 
-import { getProducts } from '../lib/moltin'
+import { getProducts } from '../src/shared/services/apiService'
 
 const Home = ({ products }) => (
   <ProductList products={products} />

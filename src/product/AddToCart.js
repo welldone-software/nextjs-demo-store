@@ -1,6 +1,6 @@
 import { Input, Button, Label } from 'semantic-ui-react'
 
-import { addToCart } from '../lib/moltin'
+import { addToCart } from '../../src/shared/services/apiService'
 
 export default class AddToCart extends React.Component {
   state = {
@@ -17,7 +17,7 @@ export default class AddToCart extends React.Component {
       loading: true
     })
 
-    const cart = await addToCart(cartId, productId, quantity)
+    const cart = await addToCart({ cartId, productId, quantity })
 
     this.setState({
       loading: false,

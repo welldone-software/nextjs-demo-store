@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-import ProductSummary from '../components/ProductSummary'
-import ProductAttributes from '../components/ProductAttributes'
+import ProductSummary from '../src/product/ProductSummary'
+import ProductAttributes from '../src/product/ProductAttributes'
 
-import { getProductById } from '../lib/moltin'
+import { getProductById } from '../src/shared/services/apiService'
 
 const ProductPage = ({ product }) => (
   <>
@@ -21,7 +21,7 @@ ProductPage.getInitialProps = async ({ctx: { query: { id } }}) => {
   const {
     data,
     included: { main_images }
-  } = await getProductById(id)
+  } = await getProductById({ productId: id })
 
   const imageId = data.relationships.main_image
     ? data.relationships.main_image.data.id

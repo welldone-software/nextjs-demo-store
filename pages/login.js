@@ -8,7 +8,7 @@ import {
   Message
 } from 'semantic-ui-react'
 
-import { login } from '../lib/moltin'
+import { login } from '../src/shared/services/apiService'
 
 export default class Login extends React.Component {
   state = {

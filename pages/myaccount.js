@@ -1,8 +1,7 @@
 import Router from 'next/router'
 
-import OrderItemList from '../components/OrderItemList'
-
-import { getOrders } from '../lib/moltin'
+import OrderItemList from '../src/myaccount/OrderItemList'
+import { getOrders } from '../src/shared/services/apiService'
 
 export default class MyAccount extends React.Component {
   state = {
@@ -17,7 +16,7 @@ export default class MyAccount extends React.Component {
       Router.push('/login')
     }
 
-    const { data, included, meta } = await getOrders(token)
+    const { data, included, meta } = await getOrders({ token })
 
     const orders = data.map(order => {
       // const orderItems = order.relationships.items.data

@@ -1,12 +1,12 @@
-import CartItemList from '../components/CartItemList'
-import CartSummary from '../components/CartSummary'
+import CartItemList from '../src/cart/CartItemList'
+import CartSummary from '../src/cart/CartSummary'
 
 import {
   getCartItems,
   removeFromCart,
   checkoutCart,
   payForOrder
-} from '../lib/moltin'
+} from '../src/shared/services/apiService'
 
 export default class Cart extends React.Component {
   state = {
@@ -17,7 +17,7 @@ export default class Cart extends React.Component {
 
   async componentDidMount() {
     const cartId = await localStorage.getItem('mcart')
-    const { data, meta } = await getCartItems(cartId)
+    const { data, meta } = await getCartItems({ cartId })
 
     this.setState({
       items: data,
@@ -59,8 +59,8 @@ export default class Cart extends React.Component {
     try {
       const {
         data: { id }
-      } = await checkoutCart(cartId, customer, address)
-      await payForOrder(id, token, email)
+      } = await checkoutCart({ cartId, customer, address })
+      await payForOrder({ orderId: id, token, email })
 
       this.setState({
         completed: true
@@ -70,9 +70,9 @@ export default class Cart extends React.Component {
     }
   }
 
-  _handleRemoveFromCart = async itemId => {
+  _handleRemoveFromCart = async productId => {
     const { items, cartId } = this.state
-    const { data, meta } = await removeFromCart(itemId, cartId)
+    const { data, meta } = await removeFromCart({ productId, cartId })
 
     this.setState({
       items: data,

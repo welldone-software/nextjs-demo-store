@@ -1,0 +1,1287 @@
+{
+  "data": [
+    {
+      "id": "19f14ec4-959f-495d-9fa8-bca93bfd15f0",
+      "type": "product",
+      "material": "steel",
+      "bulb": "GU10",
+      "bulb_qty": "5",
+      "background_color": "#ffffff",
+      "on_sale": null,
+      "new": true,
+      "max_watt": "50W",
+      "meta_title": "Dark chrome desk lamp",
+      "meta_description": "Funky desk lamp on dark matt chrome base with copper detail ",
+      "main_image_alt_text": "black and gold desk lamp",
+      "finish": "Gloss Black",
+      "weight": null,
+      "name": "Gold",
+      "slug": "gold",
+      "sku": "BXD100BLK",
+      "manage_stock": false,
+      "description": "This adjustable table lamp comes in matt black with a striking copper detail. It has a good, sturdy construction and is adjustable. It will add a funky and contemporary feel to any room.",
+      "price": [
+        {
+          "amount": 24300,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2019-02-21T19:13:30+00:00",
+          "updated_at": "2019-05-20T15:44:36+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 24300,
+            "currency": "USD",
+            "formatted": "$243.00"
+          },
+          "without_tax": {
+            "amount": 24300,
+            "currency": "USD",
+            "formatted": "$243.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "a8e7be31-a57c-4f19-90e5-63fcce98ea00"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "486349d6-c234-4c31-87ab-131f90230fb5"
+          }
+        }
+      }
+    },
+    {
+      "id": "873c77e9-b087-41a8-9dae-4522a7eee960",
+      "type": "product",
+      "material": "steel and acrylic",
+      "bulb": "B-10",
+      "bulb_qty": "1",
+      "background_color": "#ffffff",
+      "on_sale": true,
+      "new": true,
+      "max_watt": "60W",
+      "meta_title": "Blue desk lamp",
+      "meta_description": "Modern-looking desk lamp with steel adjustable base and blue plastic shade",
+      "main_image_alt_text": "blue and steel grey lamp",
+      "weight": null,
+      "finish": "acrylic and steel",
+      "name": "Blue Desk",
+      "slug": "blue-desk",
+      "sku": "BLDE1000BLU",
+      "manage_stock": true,
+      "description": "The perfect accessory for a desk or bedside table of any modern house. The shade can be tilted to suit your needs and is replaceable extending the life of your lamp.",
+      "price": [
+        {
+          "amount": 25000,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2019-02-21T19:08:01+00:00",
+          "updated_at": "2019-10-07T09:41:48+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 25000,
+            "currency": "USD",
+            "formatted": "$250.00"
+          },
+          "without_tax": {
+            "amount": 25000,
+            "currency": "USD",
+            "formatted": "$250.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "in-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "a8e7be31-a57c-4f19-90e5-63fcce98ea00"
+            }
+          ]
+        },
+        "collections": {
+          "data": [
+            {
+              "type": "collection",
+              "id": "697fa86f-5d19-4c89-a40d-3d0c55b9fb3a"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "a0063567-2c2a-4546-ba34-7709991ef8f8"
+          }
+        }
+      }
+    },
+    {
+      "id": "77a51a50-3687-4726-a8a5-f3cc5d1c0078",
+      "type": "product",
+      "material": "Steel & wood",
+      "bulb": "G4",
+      "bulb_qty": "4",
+      "background_color": "#ffffff",
+      "on_sale": null,
+      "new": null,
+      "max_watt": "60W",
+      "meta_title": "Black Modern Lamp",
+      "meta_description": "Modern-looking tripod floor lamp with wooden base and charcoal metal shade",
+      "main_image_alt_text": "metal and wood tripod lamp",
+      "finish": "Matt Black",
+      "weight": null,
+      "name": "Mod",
+      "slug": "mod",
+      "sku": "BKMD100BLK",
+      "manage_stock": false,
+      "description": "Abstract, sculptural, refined and edgy with a modern twist. Its symmetrical, spoked structure generates a clever geometric presence, which works well in a contemporary environment. The lamp is a tripod floor lamp with wooden base and charcoal metal shade.",
+      "price": [
+        {
+          "amount": 9500,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T13:03:43+00:00",
+          "updated_at": "2019-05-21T01:46:45+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 9500,
+            "currency": "USD",
+            "formatted": "$95.00"
+          },
+          "without_tax": {
+            "amount": 9500,
+            "currency": "USD",
+            "formatted": "$95.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        },
+        "variations": [
+          {
+            "id": "03269208-8b34-4931-9bc0-89c6a80182a4",
+            "name": "Colour",
+            "options": [
+              {
+                "id": "db542bb9-bb18-40a7-a327-e9b25a18278c",
+                "name": "Black",
+                "description": "The black mod"
+              },
+              {
+                "id": "dfeb1a56-a3a3-4b6f-a884-12d094153373",
+                "name": "White",
+                "description": "The white mod"
+              },
+              {
+                "id": "b1f6af94-8532-4305-a420-e9b062f278a3",
+                "name": "Green",
+                "description": "The green mod"
+              }
+            ]
+          }
+        ]
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "f76bf8d8-129a-47c3-911e-ac05a2ee587f"
+            }
+          ]
+        },
+        "collections": {
+          "data": [
+            {
+              "type": "collection",
+              "id": "697fa86f-5d19-4c89-a40d-3d0c55b9fb3a"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "product-variation",
+              "id": "03269208-8b34-4931-9bc0-89c6a80182a4"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "f21d99f6-242f-4921-8fb8-1af677b83c2e"
+          }
+        }
+      }
+    },
+    {
+      "id": "1981f542-8a23-460c-83b5-008130ced9a6",
+      "type": "product",
+      "material": "Steel",
+      "bulb": "GU10",
+      "bulb_qty": "12",
+      "background_color": "#d9d9d9",
+      "on_sale": null,
+      "new": null,
+      "max_watt": "5W",
+      "meta_title": "Dark modern floor lamp",
+      "meta_description": "Modern-looking floor lamp with halogen bulbs and dark chrome base",
+      "main_image_alt_text": "black metal lamp",
+      "weight": null,
+      "finish": "Matt Black",
+      "name": "Crown",
+      "slug": "crown",
+      "sku": "CWLP100BLK",
+      "manage_stock": false,
+      "description": "This slim-line halogen floor standing lamp is in the dark satin chrome finish and is ideal for a modern clean look. The arms end at the same height and each one has a halogen capsule bulb contained inside the clear and frosted tubular glass shades.",
+      "price": [
+        {
+          "amount": 37500,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T13:02:49+00:00",
+          "updated_at": "2019-07-08T08:29:08+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 37500,
+            "currency": "USD",
+            "formatted": "$375.00"
+          },
+          "without_tax": {
+            "amount": 37500,
+            "currency": "USD",
+            "formatted": "$375.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "f76bf8d8-129a-47c3-911e-ac05a2ee587f"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "14be2d71-b84a-494a-924f-a78ed2bfcb1e"
+          }
+        }
+      }
+    },
+    {
+      "id": "7123b2bb-d32d-480f-a30c-77a972954f1d",
+      "type": "product",
+      "material": "Steel & wood",
+      "bulb": "E27",
+      "bulb_qty": "6",
+      "background_color": "#d7f0ea",
+      "on_sale": null,
+      "new": null,
+      "max_watt": "60W",
+      "meta_title": "Mint green modern lamp",
+      "meta_description": "Modern-looking tripod floor lamp with charcoal base and mint green metal shade",
+      "main_image_alt_text": "green etal and wood tripod lamp",
+      "finish": "Matt Green",
+      "weight": null,
+      "name": "Green Mod",
+      "slug": "green-mod",
+      "sku": "GNMD100GRN",
+      "manage_stock": false,
+      "description": "Abstract, sculptural, refined and edgy with a modern twist. Its symmetrical, spoked structure generates a clever geometric presence, which works well in a contemporary environment. The lamp is a tripod floor lamp with charcoal base and mint green metal shade.",
+      "price": [
+        {
+          "amount": 50000,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T13:02:06+00:00",
+          "updated_at": "2019-05-21T01:46:44+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 50000,
+            "currency": "USD",
+            "formatted": "$500.00"
+          },
+          "without_tax": {
+            "amount": 50000,
+            "currency": "USD",
+            "formatted": "$500.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "f76bf8d8-129a-47c3-911e-ac05a2ee587f"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "871128ef-04eb-41ad-9e4d-ea461117b8fe"
+          }
+        }
+      }
+    },
+    {
+      "id": "565e1449-6d59-42e5-aecc-00ba24b5ea23",
+      "type": "product",
+      "material": "Steel",
+      "bulb": "G9",
+      "bulb_qty": "2",
+      "background_color": "#e6e1e1",
+      "on_sale": null,
+      "new": null,
+      "max_watt": "40W",
+      "meta_title": "Table lamp with decorative shade",
+      "meta_description": "Table lamp on white slender base with decorative matt silver shade ",
+      "main_image_alt_text": "Decorative silver lamp",
+      "finish": "Stainless steel",
+      "weight": null,
+      "name": "Jewellery",
+      "slug": "jewellery",
+      "sku": "JWLP100SIL",
+      "manage_stock": false,
+      "description": "This very elegant chrome table lamp called 'Jewellery' for a reason has a beautiful shade that creates breath-taking intricate shadows that play on the sense of depth and perspective. This table lamp with structure in chromed metal will make a wonderful addition to your lounge, bedroom or guestroom.\n\n",
+      "price": [
+        {
+          "amount": 50000,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T13:01:18+00:00",
+          "updated_at": "2019-05-21T01:46:43+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 50000,
+            "currency": "USD",
+            "formatted": "$500.00"
+          },
+          "without_tax": {
+            "amount": 50000,
+            "currency": "USD",
+            "formatted": "$500.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "f76bf8d8-129a-47c3-911e-ac05a2ee587f"
+            }
+          ]
+        },
+        "collections": {
+          "data": [
+            {
+              "type": "collection",
+              "id": "a6fdd35f-d573-426e-9098-ec364ccfc7be"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "b8abc959-42c7-44f2-8e03-c5e8054d6dc6"
+          }
+        }
+      }
+    },
+    {
+      "id": "5d3864bc-4781-4355-a08c-acfe94ee7f5a",
+      "type": "product",
+      "material": "Wood & material",
+      "bulb": "CANDLE",
+      "bulb_qty": "3",
+      "background_color": "#dadada",
+      "on_sale": null,
+      "new": null,
+      "max_watt": "40W",
+      "meta_title": "Classic table lamp",
+      "meta_description": "Wooden hand-made classic table lamp with a light grey material shade",
+      "main_image_alt_text": "wooden lamp with material shade",
+      "finish": "Light wood",
+      "weight": null,
+      "name": "Little Grey",
+      "slug": "little-grey",
+      "sku": "LIGR100GRY",
+      "manage_stock": false,
+      "description": "This hand-made classic table lamp on ash wooden geometrical stand and light grey material shade will brighten up every contemporary or traditional house.",
+      "price": [
+        {
+          "amount": 47500,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T13:00:19+00:00",
+          "updated_at": "2019-05-21T01:46:43+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 47500,
+            "currency": "USD",
+            "formatted": "$475.00"
+          },
+          "without_tax": {
+            "amount": 47500,
+            "currency": "USD",
+            "formatted": "$475.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "d2d649b4-e15f-4092-9817-3ab1fbe0fdcd"
+            }
+          ]
+        },
+        "collections": {
+          "data": [
+            {
+              "type": "collection",
+              "id": "a6fdd35f-d573-426e-9098-ec364ccfc7be"
+            },
+            {
+              "type": "collection",
+              "id": "5bf870e2-5f18-4b77-8eba-1696265f2136"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "0bd5aba4-5fe0-4561-9ad6-369b07a0f628"
+          }
+        }
+      }
+    },
+    {
+      "id": "2ced0985-2fc9-4d08-ada9-701be5c3306c",
+      "type": "product",
+      "material": "Steel & acrylic",
+      "bulb": "B22",
+      "bulb_qty": "1",
+      "background_color": "#f0f0f0",
+      "on_sale": null,
+      "new": null,
+      "max_watt": "40W",
+      "meta_title": "Table lamp with geometric lampshade",
+      "meta_description": "Table lamp with matching geometric lampshade and base",
+      "main_image_alt_text": "multicolor lamp with geometric shapes",
+      "finish": "Acrylic",
+      "weight": null,
+      "name": "Multi-Vibe",
+      "slug": "multi-vibe",
+      "sku": "MUVB100MUL",
+      "manage_stock": false,
+      "description": "Abstract geometric lampshade and matching base creates a crisp modern-looking piece of art, rather than a typical boring lamp. Designed especially for those who love to stand out and shine.",
+      "price": [
+        {
+          "amount": 32500,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T12:58:43+00:00",
+          "updated_at": "2019-05-21T01:46:41+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 32500,
+            "currency": "USD",
+            "formatted": "$325.00"
+          },
+          "without_tax": {
+            "amount": 32500,
+            "currency": "USD",
+            "formatted": "$325.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "d2d649b4-e15f-4092-9817-3ab1fbe0fdcd"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "c6e0d841-7dbb-486d-9a18-6544ca4a671c"
+          }
+        }
+      }
+    },
+    {
+      "id": "2f596919-dfa1-4fe0-b134-e703b2ffb51d",
+      "type": "product",
+      "material": "Glass & chrome",
+      "bulb": "E27",
+      "bulb_qty": "3",
+      "background_color": "#ded7cb",
+      "on_sale": null,
+      "new": true,
+      "max_watt": "40W",
+      "meta_title": "Floor tripod lamp",
+      "meta_description": "Floor lamp with a tripod matt chrome base and oval milky glass shade",
+      "main_image_alt_text": "Tripod glass and chrome lamp",
+      "finish": "Matt chrome",
+      "weight": null,
+      "name": "Orb",
+      "slug": "orb",
+      "sku": "ORLP100WHI",
+      "manage_stock": false,
+      "description": "A charming addition to your home, this floor lamp is part of the Sphere range. The light bulb is housed within an opal glass white shade, of which rests within a hollow ring. Complete with a matt chrome tripod stand, it is perfect for use in living rooms, hallways and bedrooms.",
+      "price": [
+        {
+          "amount": 45000,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T12:57:26+00:00",
+          "updated_at": "2019-05-21T01:46:41+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 45000,
+            "currency": "USD",
+            "formatted": "$450.00"
+          },
+          "without_tax": {
+            "amount": 45000,
+            "currency": "USD",
+            "formatted": "$450.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "f76bf8d8-129a-47c3-911e-ac05a2ee587f"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "825f6fa9-a5ff-4465-a567-fb376f642520"
+          }
+        }
+      }
+    },
+    {
+      "id": "1a4284a6-f471-4012-b7f6-d3115dcec3df",
+      "type": "product",
+      "material": "Steel & material",
+      "bulb": "E27",
+      "bulb_qty": "12",
+      "background_color": "#f0e4e4",
+      "on_sale": true,
+      "new": null,
+      "max_watt": "40W",
+      "meta_title": "Metal base table lamp",
+      "meta_description": "Table lamp on a charcoal matt geometrical base with dark red material shade",
+      "main_image_alt_text": "Black and red table lamp",
+      "finish": "Matt Black",
+      "weight": null,
+      "name": "Red Woman",
+      "slug": "red-woman",
+      "sku": "RDWO100RED",
+      "manage_stock": false,
+      "description": "This lamp has a bold color with charcoal accents, adds a decorative element to any room. The design of this lamp is extremely simple and unique. The lamp can be placed anywhere in the house, or maybe even in an office.",
+      "price": [
+        {
+          "amount": 29000,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T12:55:55+00:00",
+          "updated_at": "2019-05-20T15:46:26+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 29000,
+            "currency": "USD",
+            "formatted": "$290.00"
+          },
+          "without_tax": {
+            "amount": 29000,
+            "currency": "USD",
+            "formatted": "$290.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "d2d649b4-e15f-4092-9817-3ab1fbe0fdcd"
+            }
+          ]
+        },
+        "collections": {
+          "data": [
+            {
+              "type": "collection",
+              "id": "a6fdd35f-d573-426e-9098-ec364ccfc7be"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "92e2b5fd-5552-4ea2-9dcf-971f7592f660"
+          }
+        }
+      }
+    },
+    {
+      "id": "e5293dac-46e2-433f-b6aa-433884680fb8",
+      "type": "product",
+      "material": "Steel & acrylic",
+      "bulb": "E27",
+      "bulb_qty": "6",
+      "background_color": "#f0f0f0",
+      "on_sale": null,
+      "new": null,
+      "max_watt": "60W",
+      "meta_title": "White Modern Lamp",
+      "meta_description": "Tripod floor lamp with lagoon blue base and white metal shade.",
+      "main_image_alt_text": "white and blue lamp",
+      "finish": "Matt blue",
+      "weight": null,
+      "name": "White Mod",
+      "slug": "white-mod",
+      "sku": "WHMO100WHI",
+      "manage_stock": false,
+      "description": "Abstract, sculptural, refined and edgy with a modern twist. Its symmetrical, spoked structure generates a clever geometric presence, which works well in a contemporary environment. The lamp is a tripod floor lamp with lagoon blue base and white metal shade.",
+      "price": [
+        {
+          "amount": 40000,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T12:55:11+00:00",
+          "updated_at": "2019-05-21T01:46:51+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 40000,
+            "currency": "USD",
+            "formatted": "$400.00"
+          },
+          "without_tax": {
+            "amount": 40000,
+            "currency": "USD",
+            "formatted": "$400.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "f76bf8d8-129a-47c3-911e-ac05a2ee587f"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "a0b2f791-4315-4a14-8b70-53784330cfb6"
+          }
+        }
+      }
+    },
+    {
+      "id": "042d83ae-fae4-46fe-b69b-a811496e7125",
+      "type": "product",
+      "material": "Wood & material",
+      "bulb": "40W",
+      "bulb_qty": "6",
+      "background_color": "#f1e2cc",
+      "on_sale": true,
+      "new": null,
+      "max_watt": "40W",
+      "meta_title": "Tripod floor lamp",
+      "meta_description": "Tripod fllor lamp with wooden base and beige material drum shade",
+      "main_image_alt_text": "Tripod wooden floor lamp",
+      "finish": "Light wood",
+      "weight": null,
+      "name": "Woodsy",
+      "slug": "woodsy",
+      "sku": "WDLP100BRO",
+      "manage_stock": false,
+      "description": "This tripod lamp has been finished off with a simple fabric drum diffusing lampshade for a modern finish. This floor lamp makes a fitting and compelling showcase for any modern Scandi-looking room.",
+      "price": [
+        {
+          "amount": 40000,
+          "currency": "USD",
+          "includes_tax": true
+        }
+      ],
+      "status": "live",
+      "commodity_type": "physical",
+      "meta": {
+        "timestamps": {
+          "created_at": "2018-07-09T12:53:58+00:00",
+          "updated_at": "2019-05-20T13:45:03+00:00"
+        },
+        "display_price": {
+          "with_tax": {
+            "amount": 40000,
+            "currency": "USD",
+            "formatted": "$400.00"
+          },
+          "without_tax": {
+            "amount": 40000,
+            "currency": "USD",
+            "formatted": "$400.00"
+          }
+        },
+        "stock": {
+          "level": 0,
+          "availability": "out-stock"
+        }
+      },
+      "relationships": {
+        "categories": {
+          "data": [
+            {
+              "type": "category",
+              "id": "f76bf8d8-129a-47c3-911e-ac05a2ee587f"
+            }
+          ]
+        },
+        "brands": {
+          "data": [
+            {
+              "type": "brand",
+              "id": "5de86877-0a1b-4ada-bc38-64271983c23d"
+            }
+          ]
+        },
+        "main_image": {
+          "data": {
+            "type": "main_image",
+            "id": "03c8d139-753c-4ac4-8024-948dd81338ec"
+          }
+        }
+      }
+    }
+  ],
+  "links": {
+    "current": "https://api.moltin.com/v2/products?page[limit]=100&page[offset]=0&include=main_image",
+    "first": "https://api.moltin.com/v2/products?page[limit]=100&page[offset]=0&include=main_image",
+    "last": null
+  },
+  "meta": {
+    "results": {
+      "total": 12
+    },
+    "page": {
+      "limit": 100,
+      "offset": 0,
+      "current": 1,
+      "total": 1
+    }
+  },
+  "included": {
+    "main_images": [
+      {
+        "type": "file",
+        "id": "486349d6-c234-4c31-87ab-131f90230fb5",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/486349d6-c234-4c31-87ab-131f90230fb5.png"
+        },
+        "file_name": "gold.png",
+        "mime_type": "image/png",
+        "file_size": 162226,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2019-02-22T10:59:09.722Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/486349d6-c234-4c31-87ab-131f90230fb5"
+        }
+      },
+      {
+        "type": "file",
+        "id": "a0063567-2c2a-4546-ba34-7709991ef8f8",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/a0063567-2c2a-4546-ba34-7709991ef8f8.png"
+        },
+        "file_name": "bluelamp.png",
+        "mime_type": "image/png",
+        "file_size": 173953,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2019-02-22T10:58:54.666Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/a0063567-2c2a-4546-ba34-7709991ef8f8"
+        }
+      },
+      {
+        "type": "file",
+        "id": "f21d99f6-242f-4921-8fb8-1af677b83c2e",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/f21d99f6-242f-4921-8fb8-1af677b83c2e.png"
+        },
+        "file_name": "e490fd98-2439-46ef-88e6-20629d3bd269.png",
+        "mime_type": "image/png",
+        "file_size": 174605,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:06:49.264Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/f21d99f6-242f-4921-8fb8-1af677b83c2e"
+        }
+      },
+      {
+        "type": "file",
+        "id": "14be2d71-b84a-494a-924f-a78ed2bfcb1e",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/14be2d71-b84a-494a-924f-a78ed2bfcb1e.png"
+        },
+        "file_name": "7cc08cbb-256e-4271-9b01-d03a9fac9f0a.png",
+        "mime_type": "image/png",
+        "file_size": 165764,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:09:56.951Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/14be2d71-b84a-494a-924f-a78ed2bfcb1e"
+        }
+      },
+      {
+        "type": "file",
+        "id": "871128ef-04eb-41ad-9e4d-ea461117b8fe",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/871128ef-04eb-41ad-9e4d-ea461117b8fe.png"
+        },
+        "file_name": "e316f189-6e6f-4a80-88ff-57b4c89f434d.png",
+        "mime_type": "image/png",
+        "file_size": 171225,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:06:39.63Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/871128ef-04eb-41ad-9e4d-ea461117b8fe"
+        }
+      },
+      {
+        "type": "file",
+        "id": "b8abc959-42c7-44f2-8e03-c5e8054d6dc6",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/b8abc959-42c7-44f2-8e03-c5e8054d6dc6.png"
+        },
+        "file_name": "ca9dd645-638c-4dfa-9a60-1fa544d125fd.png",
+        "mime_type": "image/png",
+        "file_size": 248479,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:13:55.093Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/b8abc959-42c7-44f2-8e03-c5e8054d6dc6"
+        }
+      },
+      {
+        "type": "file",
+        "id": "0bd5aba4-5fe0-4561-9ad6-369b07a0f628",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/0bd5aba4-5fe0-4561-9ad6-369b07a0f628.png"
+        },
+        "file_name": "0975231a-e6a2-40b1-8d43-c0538fd0d3b0.png",
+        "mime_type": "image/png",
+        "file_size": 370532,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:14:15.148Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/0bd5aba4-5fe0-4561-9ad6-369b07a0f628"
+        }
+      },
+      {
+        "type": "file",
+        "id": "c6e0d841-7dbb-486d-9a18-6544ca4a671c",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/c6e0d841-7dbb-486d-9a18-6544ca4a671c.png"
+        },
+        "file_name": "lamp6-trans.png",
+        "mime_type": "image/png",
+        "file_size": 362075,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:12:26.182Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/c6e0d841-7dbb-486d-9a18-6544ca4a671c"
+        }
+      },
+      {
+        "type": "file",
+        "id": "825f6fa9-a5ff-4465-a567-fb376f642520",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/825f6fa9-a5ff-4465-a567-fb376f642520.png"
+        },
+        "file_name": "61118f21-14a2-466c-a84b-c30b1f900cf9.png",
+        "mime_type": "image/png",
+        "file_size": 105397,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:04:58.854Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/825f6fa9-a5ff-4465-a567-fb376f642520"
+        }
+      },
+      {
+        "type": "file",
+        "id": "92e2b5fd-5552-4ea2-9dcf-971f7592f660",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/92e2b5fd-5552-4ea2-9dcf-971f7592f660.png"
+        },
+        "file_name": "f8cf26b3-6d38-4275-937a-624a83994702.png",
+        "mime_type": "image/png",
+        "file_size": 110041,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:05:24.316Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/92e2b5fd-5552-4ea2-9dcf-971f7592f660"
+        }
+      },
+      {
+        "type": "file",
+        "id": "a0b2f791-4315-4a14-8b70-53784330cfb6",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/a0b2f791-4315-4a14-8b70-53784330cfb6.png"
+        },
+        "file_name": "a88767b3-6d2e-4f93-bab3-6c1f7bbde612.png",
+        "mime_type": "image/png",
+        "file_size": 152192,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:06:25.864Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/a0b2f791-4315-4a14-8b70-53784330cfb6"
+        }
+      },
+      {
+        "type": "file",
+        "id": "03c8d139-753c-4ac4-8024-948dd81338ec",
+        "link": {
+          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/03c8d139-753c-4ac4-8024-948dd81338ec.png"
+        },
+        "file_name": "8afcb63b-c6fc-486b-beab-599159bb4e37.png",
+        "mime_type": "image/png",
+        "file_size": 206936,
+        "public": true,
+        "meta": {
+          "dimensions": {
+            "width": 1000,
+            "height": 1000
+          },
+          "timestamps": {
+            "created_at": "2018-07-09T13:13:22.552Z"
+          }
+        },
+        "links": {
+          "self": "https://api.moltin.com/v2/files/03c8d139-753c-4ac4-8024-948dd81338ec"
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 import Router from 'next/router'
 import { Header, Form, Input, Button, Segment } from 'semantic-ui-react'
 
-import { register } from '../lib/moltin'
+import { register } from '../src/shared/services/apiService'
 import Head from 'next/head'
 
 export default class Register extends React.Component {
