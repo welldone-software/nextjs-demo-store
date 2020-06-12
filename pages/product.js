@@ -32,7 +32,7 @@ ProductPage.getInitialProps = async ({ctx: { query: { id } }}) => {
       ...data,
       image: imageId
         ? main_images.find(img => img.id === imageId).link.href
-        : '/static/moltin-light-hex.svg'
+        : '/moltin-light-hex.svg'
     }
   }
 }

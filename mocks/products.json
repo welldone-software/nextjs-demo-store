@@ -988,11 +988,6 @@
       }
     }
   ],
-  "links": {
-    "current": "https://api.moltin.com/v2/products?page[limit]=100&page[offset]=0&include=main_image",
-    "first": "https://api.moltin.com/v2/products?page[limit]=100&page[offset]=0&include=main_image",
-    "last": null
-  },
   "meta": {
     "results": {
       "total": 12
@@ -1010,7 +1005,7 @@
         "type": "file",
         "id": "486349d6-c234-4c31-87ab-131f90230fb5",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/486349d6-c234-4c31-87ab-131f90230fb5.png"
+          "href": "/product-images/486349d6-c234-4c31-87ab-131f90230fb5.png"
         },
         "file_name": "gold.png",
         "mime_type": "image/png",
@@ -1024,16 +1019,13 @@
           "timestamps": {
             "created_at": "2019-02-22T10:59:09.722Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/486349d6-c234-4c31-87ab-131f90230fb5"
         }
       },
       {
         "type": "file",
         "id": "a0063567-2c2a-4546-ba34-7709991ef8f8",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/a0063567-2c2a-4546-ba34-7709991ef8f8.png"
+          "href": "/product-images/a0063567-2c2a-4546-ba34-7709991ef8f8.png"
         },
         "file_name": "bluelamp.png",
         "mime_type": "image/png",
@@ -1047,16 +1039,13 @@
           "timestamps": {
             "created_at": "2019-02-22T10:58:54.666Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/a0063567-2c2a-4546-ba34-7709991ef8f8"
         }
       },
       {
         "type": "file",
         "id": "f21d99f6-242f-4921-8fb8-1af677b83c2e",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/f21d99f6-242f-4921-8fb8-1af677b83c2e.png"
+          "href": "/product-images/f21d99f6-242f-4921-8fb8-1af677b83c2e.png"
         },
         "file_name": "e490fd98-2439-46ef-88e6-20629d3bd269.png",
         "mime_type": "image/png",
@@ -1070,16 +1059,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:06:49.264Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/f21d99f6-242f-4921-8fb8-1af677b83c2e"
         }
       },
       {
         "type": "file",
         "id": "14be2d71-b84a-494a-924f-a78ed2bfcb1e",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/14be2d71-b84a-494a-924f-a78ed2bfcb1e.png"
+          "href": "/product-images/14be2d71-b84a-494a-924f-a78ed2bfcb1e.png"
         },
         "file_name": "7cc08cbb-256e-4271-9b01-d03a9fac9f0a.png",
         "mime_type": "image/png",
@@ -1093,16 +1079,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:09:56.951Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/14be2d71-b84a-494a-924f-a78ed2bfcb1e"
         }
       },
       {
         "type": "file",
         "id": "871128ef-04eb-41ad-9e4d-ea461117b8fe",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/871128ef-04eb-41ad-9e4d-ea461117b8fe.png"
+          "href": "/product-images/871128ef-04eb-41ad-9e4d-ea461117b8fe.png"
         },
         "file_name": "e316f189-6e6f-4a80-88ff-57b4c89f434d.png",
         "mime_type": "image/png",
@@ -1116,16 +1099,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:06:39.63Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/871128ef-04eb-41ad-9e4d-ea461117b8fe"
         }
       },
       {
         "type": "file",
         "id": "b8abc959-42c7-44f2-8e03-c5e8054d6dc6",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/b8abc959-42c7-44f2-8e03-c5e8054d6dc6.png"
+          "href": "/product-images/b8abc959-42c7-44f2-8e03-c5e8054d6dc6.png"
         },
         "file_name": "ca9dd645-638c-4dfa-9a60-1fa544d125fd.png",
         "mime_type": "image/png",
@@ -1139,16 +1119,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:13:55.093Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/b8abc959-42c7-44f2-8e03-c5e8054d6dc6"
         }
       },
       {
         "type": "file",
         "id": "0bd5aba4-5fe0-4561-9ad6-369b07a0f628",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/0bd5aba4-5fe0-4561-9ad6-369b07a0f628.png"
+          "href": "/product-images/0bd5aba4-5fe0-4561-9ad6-369b07a0f628.png"
         },
         "file_name": "0975231a-e6a2-40b1-8d43-c0538fd0d3b0.png",
         "mime_type": "image/png",
@@ -1162,16 +1139,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:14:15.148Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/0bd5aba4-5fe0-4561-9ad6-369b07a0f628"
         }
       },
       {
         "type": "file",
         "id": "c6e0d841-7dbb-486d-9a18-6544ca4a671c",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/c6e0d841-7dbb-486d-9a18-6544ca4a671c.png"
+          "href": "/product-images/c6e0d841-7dbb-486d-9a18-6544ca4a671c.png"
         },
         "file_name": "lamp6-trans.png",
         "mime_type": "image/png",
@@ -1185,16 +1159,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:12:26.182Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/c6e0d841-7dbb-486d-9a18-6544ca4a671c"
         }
       },
       {
         "type": "file",
         "id": "825f6fa9-a5ff-4465-a567-fb376f642520",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/825f6fa9-a5ff-4465-a567-fb376f642520.png"
+          "href": "/product-images/825f6fa9-a5ff-4465-a567-fb376f642520.png"
         },
         "file_name": "61118f21-14a2-466c-a84b-c30b1f900cf9.png",
         "mime_type": "image/png",
@@ -1208,16 +1179,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:04:58.854Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/825f6fa9-a5ff-4465-a567-fb376f642520"
         }
       },
       {
         "type": "file",
         "id": "92e2b5fd-5552-4ea2-9dcf-971f7592f660",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/92e2b5fd-5552-4ea2-9dcf-971f7592f660.png"
+          "href": "/product-images/92e2b5fd-5552-4ea2-9dcf-971f7592f660.png"
         },
         "file_name": "f8cf26b3-6d38-4275-937a-624a83994702.png",
         "mime_type": "image/png",
@@ -1231,16 +1199,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:05:24.316Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/92e2b5fd-5552-4ea2-9dcf-971f7592f660"
         }
       },
       {
         "type": "file",
         "id": "a0b2f791-4315-4a14-8b70-53784330cfb6",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/a0b2f791-4315-4a14-8b70-53784330cfb6.png"
+          "href": "/product-images/a0b2f791-4315-4a14-8b70-53784330cfb6.png"
         },
         "file_name": "a88767b3-6d2e-4f93-bab3-6c1f7bbde612.png",
         "mime_type": "image/png",
@@ -1254,16 +1219,13 @@
           "timestamps": {
             "created_at": "2018-07-09T13:06:25.864Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/a0b2f791-4315-4a14-8b70-53784330cfb6"
         }
       },
       {
         "type": "file",
         "id": "03c8d139-753c-4ac4-8024-948dd81338ec",
         "link": {
-          "href": "https://s3-eu-west-1.amazonaws.com/bkt-svc-files-cmty-api-moltin-com/5f8ea370-7498-4054-b26f-e733a2fed59c/03c8d139-753c-4ac4-8024-948dd81338ec.png"
+          "href": "/product-images/03c8d139-753c-4ac4-8024-948dd81338ec.png"
         },
         "file_name": "8afcb63b-c6fc-486b-beab-599159bb4e37.png",
         "mime_type": "image/png",
@@ -1277,9 +1239,6 @@
           "timestamps": {
             "created_at": "2018-07-09T13:13:22.552Z"
           }
-        },
-        "links": {
-          "self": "https://api.moltin.com/v2/files/03c8d139-753c-4ac4-8024-948dd81338ec"
         }
       }
     ]

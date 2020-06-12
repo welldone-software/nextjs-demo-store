@@ -25,7 +25,7 @@ export default ({ items, removeFromCart, loading, completed }) => {
   const mapCartItemsToItems = items =>
     items.map(({ id, product_id, name, quantity, meta, image }) => {
       const price = meta.display_price.with_tax.unit.formatted || ''
-      const imageUrl = image.href || '/static/moltin-light-hex.svg'
+      const imageUrl = image.href || '/moltin-light-hex.svg'
 
       return {
         childKey: id,

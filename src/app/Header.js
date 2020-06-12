@@ -11,7 +11,7 @@ Router.onRouteChangeError = () => NProgress.done()
 export default ({ token }) => (
   <React.Fragment>
     <Head>
-      <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
+      <link rel="stylesheet" type="text/css" href="/nprogress.css" />
     </Head>
     <Menu inverted fixed="top" size="huge">
       <Container text>
@@ -19,7 +19,7 @@ export default ({ token }) => (
           <Menu.Item as="a" header>
             <Image
               size="mini"
-              src="/static/moltin-light-hex.svg"
+              src="/moltin-light-hex.svg"
               style={{ marginRight: '1.5em' }}
             />
             NextJS Store
