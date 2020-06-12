@@ -20,7 +20,7 @@ Home.getInitialProps = async () => {
       ...product,
       image: imageId
         ? included.main_images.find(img => img.id === imageId).link.href
-        : '/moltin-light-hex.svg'
+        : '/welldone-software-logo.png'
     }
   })
 

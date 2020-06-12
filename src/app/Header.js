@@ -19,7 +19,7 @@ export default ({ token }) => (
           <Menu.Item as="a" header>
             <Image
               size="mini"
-              src="/moltin-light-hex.svg"
+              src="/welldone-software-logo.png"
               style={{ marginRight: '1.5em' }}
             />
             NextJS Store
